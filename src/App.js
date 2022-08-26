@@ -13,6 +13,7 @@ function App() {
       <About />
       <Work />
       <Footer />
+      <Footer />
     </div>
   );
 }
