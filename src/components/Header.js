@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
     return (
         <>
             <header className="navbar navbar-expand-md navbar-dark bd-navbar sticky-top">
@@ -17,17 +17,28 @@ function Header() {
 
                     <div className="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
                         <div className="offcanvas-header px-4 pb-0">
-                            <h5 className="offcanvas-title text-white" id="bdNavbarOffcanvasLabel">Bootstrap</h5>
+                            <h5 className="offcanvas-title text-white" id="bdNavbarOffcanvasLabel">Menu</h5>
                             <button type="button" className="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
                         </div>
 
                         <div className="offcanvas-body p-4 pt-0 p-lg-0">
                             <ul className="navbar-nav flex-row flex-wrap ms-md-auto">
                                 <li className="sidebar-brand"><a href="#page-top"></a></li>
-                                <li className="nav-item py-2 px-3"><a href="#page-top">Featured Work</a></li>
-                                <li className="nav-item py-2 px-3"><a href="#about">About</a></li>
-                                <li className="nav-item py-2 px-3"><a href="#work">Work</a></li>
-                                <li className="nav-item py-2 px-3"><a href="#contact">Contact</a></li>
+                                <li className="nav-item py-2 px-3">
+                                    <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                                        About
+                                    </a>
+                                </li>
+                                <li className="nav-item py-2 px-3">
+                                    <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+                                        Portfolio
+                                    </a>
+                                </li>
+                                <li className="nav-item py-2 px-3">
+                                    <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+                                        Contact
+                                    </a>
+                                </li>
                                 <hr>
                                 </hr>
                                 <ul className="nav-icons d-lg-none">
@@ -48,4 +59,3 @@ function Header() {
 }
 
 export default Header;
-
