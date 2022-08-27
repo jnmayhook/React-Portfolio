@@ -7,7 +7,7 @@ function Header({ currentPage, handlePageChange }) {
                 <nav className="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
                     <div className="d-lg-none"></div>
 
-                    <a className="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="Nathan Mayhook">
+                    <a className="navbar-brand p-0 me-0 me-lg-2" href="/React-Portfolio" aria-label="Nathan Mayhook">
                         Nathan Mayhook
                     </a>
 
