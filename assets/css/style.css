@@ -87,6 +87,10 @@ nav {
   color: black !important;
   font-size: 30px !important;
 }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: var(--darkblue) !important;
+  font-weight: bold;
+}
 .btn-close {
   color:black !important;
 }
@@ -106,20 +110,28 @@ nav {
 .carousel .pawsome-logo {
   width: 300px;
 }
-.slide-one-bg {
-  background: url(../img/collective-cup-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 500px;
-}
 .slide-two-bg {
   background: url(../img/pawsome-petfinder-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 500px;
+  min-height: 400px;
 }
+.slide-one-bg {
+  background: url(../img/collective-cup-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+}
+.slide-one-about {
+  background: url(../img/computer_code2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 200px;
+}
+
 .navbar-toggler:focus {
   outline: none;
   box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%) !important;
@@ -157,7 +169,7 @@ ul.nav-icons {
 
 .footer {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+  background-color: var(--darkblue);
   padding:20px;
   color: var(--white);
   font-family: var(--robotoslab);
