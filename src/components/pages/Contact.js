@@ -39,7 +39,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="text-secondary px-4 py-5" id="contact">
+      <div className="text-secondary px-4 py-5">
         <div className="contact-text">
           <div className="py-3">
             <h1 className="display-5 fw-bold text-center">Let's Talk</h1>
