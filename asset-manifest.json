@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.bd208ee6.css",
-    "main.js": "/React-Portfolio/static/js/main.099e7d4c.js",
-    "static/js/787.b701888c.chunk.js": "/React-Portfolio/static/js/787.b701888c.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
-    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
-    "index.html": "/React-Portfolio/index.html",
-    "main.bd208ee6.css.map": "/React-Portfolio/static/css/main.bd208ee6.css.map",
-    "main.099e7d4c.js.map": "/React-Portfolio/static/js/main.099e7d4c.js.map",
-    "787.b701888c.chunk.js.map": "/React-Portfolio/static/js/787.b701888c.chunk.js.map"
+    "main.css": "/static/css/main.868bf88e.css",
+    "main.js": "/static/js/main.8c6b78af.js",
+    "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
+    "static/media/about_nathan.jpg": "/static/media/about_nathan.7f4f5c2f7a4792f017ce.jpg",
+    "static/media/pawsome-petfinder-bg.jpg": "/static/media/pawsome-petfinder-bg.79c36a41448c34ad14ff.jpg",
+    "static/media/collective-cup-bg.jpg": "/static/media/collective-cup-bg.1e0247f392a7d80d4d69.jpg",
+    "static/media/work_section_img-1.jpg": "/static/media/work_section_img-1.8f8603d1b7b13e9f3d72.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/about_yeti_img2_lrg.jpg": "/static/media/about_yeti_img2_lrg.0034be73c65babbbd895.jpg",
+    "static/media/about_mariners_img1.jpg": "/static/media/about_mariners_img1.f2c0217f27aa4f775b85.jpg",
+    "static/media/work_section_img-2.jpg": "/static/media/work_section_img-2.67a19a434d0099aeef5f.jpg",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/collective_cup_logo.svg": "/static/media/collective_cup_logo.4c015453171cf1b7aa11683ef7558b21.svg",
+    "static/media/computer_code2.jpg": "/static/media/computer_code2.11e42219528cbf0a53d9.jpg",
+    "static/media/pawsome-petfinder-logo.png": "/static/media/pawsome-petfinder-logo.797bb19d60f507161e8a.png",
+    "index.html": "/index.html",
+    "static/media/iconmonstr-github-1.svg": "/static/media/iconmonstr-github-1.04be58c17b3d5e9744424d414240dd85.svg",
+    "static/media/iconmonstr-phone-9.svg": "/static/media/iconmonstr-phone-9.ca5696df989fc5415f51a999a130368a.svg",
+    "static/media/iconmonstr-email-11.svg": "/static/media/iconmonstr-email-11.adc13cc16e0b36ea0985ed03efc2d7d9.svg",
+    "main.868bf88e.css.map": "/static/css/main.868bf88e.css.map",
+    "main.8c6b78af.js.map": "/static/js/main.8c6b78af.js.map",
+    "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd208ee6.css",
-    "static/js/main.099e7d4c.js"
+    "static/css/main.868bf88e.css",
+    "static/js/main.8c6b78af.js"
   ]
 }
