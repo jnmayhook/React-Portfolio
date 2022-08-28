@@ -1,0 +1,207 @@
+:root {
+  --darkblue: #445976;
+  --teal: #91cbcd;
+  --black: #31343d;
+  --lightgray: #ededf6;
+  --lato: 'Lato', sans-serif;
+  --opensans: 'Open Sans', sans-serif;
+  --white: #fff; 
+  --hurricane: 'Hurricane', cursive;
+  --robotoslab: 'Roboto Slab', serif;
+}
+
+/* font-family: 'Hurricane', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif; 
+font-family: 'Roboto Slab', serif;*/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  background-color: var(--lightgray);
+}
+body p {
+  font-family: var(--opensans);
+}
+
+/* ------------- header component -------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid white;
+}
+nav {
+  color: black;
+}
+.navbar-brand {
+  color:black !important;
+  font-family: 'Hurricane', cursive;
+  font-size: 45px !important;
+}
+.nav-item {
+  font-family: 'Roboto Slab', serif !important;
+  font-size: 18px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: var(--darkblue);
+}
+.nav-item a:hover {
+  color: var(--black);
+}
+.navbar-toggler {
+  color: black !important;
+  font-size: 30px !important;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%) !important;
+}
+ul.nav-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style-type: none;
+}
+ul.nav-icons img {
+  width:35px !important;stroke: blue;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: var(--darkblue) !important;
+  font-weight: bold;
+}
+.btn-close {
+  color:black !important;
+}
+.offcanvas-lg {
+  background: var(--white);
+}
+.offcanvas-title {
+  color:var(--darkblue);
+  font-family: var(--robotoslab);
+}
+
+/* ------------- footer component -------------- */
+.footer {
+  --bs-bg-opacity: 1;
+  background-color: var(--darkblue);
+  padding:20px;
+  color: var(--white);
+  font-family: var(--robotoslab);
+  text-transform: uppercase;
+}
+.footer li {
+  list-style: none;
+}
+
+/* ------------- about page -------------- */
+.slide-one-about {
+  background: url(../img/computer_code2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 200px;
+}
+.row.gv-1>[class*=col] {
+  padding-top: 30px;
+}
+.row.gh-1>[class*=col] {
+  padding-left: 30px;
+}
+#about p {
+  line-height: 1.9em;
+}
+.order-12 {
+  -webkit-box-ordinal-group: 13;
+  -ms-flex-order: 12;
+  order: 12;
+}
+.order-lg-6 {
+  -webkit-box-ordinal-group: 7!important;
+  -ms-flex-order: 6!important;
+  order: 6!important;
+}
+.about-text p {
+  color: var(--white);
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+/* ------------- portfolio page -------------- */
+.carousel-caption {
+  top:15%;
+}
+.carousel p {
+  font-family: var(--robotoslab);
+  font-size: 18px;
+  padding: 20px 0;
+  max-width: 80%;
+  line-height: 1.6em;
+}
+.carousel .pawsome-logo {
+  width: 300px;
+}
+.slide-two-bg {
+  background: url(../img/pawsome-petfinder-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+}
+.slide-one-bg {
+  background: url(../img/collective-cup-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+}
+.btn-collective-cup {
+  --bs-btn-bg: #663F18 !important;
+  --bs-btn-color: #fff !important;
+  --bs-btn-hover-bg: #663f18aa !important;
+  --bs-btn-hover-border-color: #663f18aa !important;
+}
+.btn-pawsome {
+  --bs-btn-bg: #CC8338 !important;
+  --bs-btn-color: #fff !important;
+  --bs-btn-hover-bg: #cc8238a8 !important;
+  --bs-btn-hover-border-color: #cc8238a8 !important;
+}
+
+
+
+/* media queries */
+
+/* Tablets - fonts  */
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+    flex-direction: column !important;
+    margin-top: 30px;
+    }
+    .ballpark {
+      display:none;
+    }
+  }
+
+
+@media screen and (max-width: 912px) {
+
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+
+}

@@ -1,4 +1,8 @@
 import React from 'react';
+import collectiveCupLogo from '../../assets/img/collective_cup_logo.svg';
+import pawesomeLogo from '../../assets/img/pawsome-petfinder-logo.png';
+import featuredImgOne from '../../assets/img/work_section_img-1.jpg';
+import featuredImgTwo from '../../assets/img/work_section_img-2.jpg';
 
 function Portfolio() {
     return (
@@ -15,11 +19,11 @@ function Portfolio() {
 
                         <div className="container">
                             <div className="carousel-caption text-start">
-                                <img className="collective-cup-logo" src="./assets/img/collective_cup_logo.svg"
+                                <img className="collective-cup-logo" src={collectiveCupLogo}
                                     alt="Collective Cup logo" />
                                 <p>A full stack application, Collective Cup is a forum application where users can create posts
                                     pertaining to their coding journeys. </p>
-                                    <p><a class="btn btn-collective-cup" href="#project-two">View Project</a></p>
+                                <p><a class="btn btn-collective-cup" href="#project-two">View Project</a></p>
                             </div>
                         </div>
                     </div>
@@ -28,18 +32,18 @@ function Portfolio() {
 
                         <div className="container">
                             <div className="carousel-caption text-start">
-                                <img className="pawsome-logo" src="./assets/img/pawsome-petfinder-logo.png"
+                                <img className="pawsome-logo" src={pawesomeLogo}
                                     alt="Pawseome Petfinder logo" />
                                 <p>Searches for pet adoption organizations based on a user's input of a city, where they can
                                     find and adopt their next furry friend!</p>
-                                    <p><a class="btn btn-pawsome" href="#project-one">View Project</a></p>
+                                <p><a class="btn btn-pawsome" href="#project-one">View Project</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="container py-5">
-            <span id="project-one"></span>
+                <span id="project-one"></span>
                 <div className="text-secondary px-4 text-center">
                     <div className="py-4">
                         <h1 className="display-5 fw-bold">Work</h1>
@@ -47,7 +51,7 @@ function Portfolio() {
                 </div>
                 <div className="row featurette py-4">
                     <div className="col-md-7 col-sm-12">
-                    <h2 className="featurette-heading fw-normal lh-1">Pawseome Petfinder</h2>
+                        <h2 className="featurette-heading fw-normal lh-1">Pawseome Petfinder</h2>
                         <p className="lead">What does this application do and why?</p>
                         <ul>
                             <li>Searches for pet adoption organizations based on a user's input of a city</li>
@@ -73,11 +77,11 @@ function Portfolio() {
 
 
 
-                        
+
                     </div>
                     <div className="col-md-5 col-sm-12">
-                    <img className="w-100" src="./assets/img/work_section_img-1.jpg" alt="" />
-                        
+                        <img className="w-100" src={featuredImgOne} alt="" />
+
                     </div>
                 </div>
 
@@ -107,11 +111,11 @@ function Portfolio() {
                             encrypted when they are stored within the database using the bcrypt module.
                         </p>
                         <a href="https://collective-cup.herokuapp.com/">Click here for the deployed app on Heroku.</a>
-                        
+
 
                     </div>
                     <div className="col-md-5 col-sm-12 order-md-1">
-                    <img className="w-100" src="./assets/img/work_section_img-2.jpg" alt="" />
+                        <img className="w-100" src={featuredImgTwo} alt="" />
                     </div>
                 </div>
 

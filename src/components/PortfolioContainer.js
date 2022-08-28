@@ -24,9 +24,9 @@ export default function PortfolioContainer() {
     <div class="d-flex flex-column h-100">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      
+
       <Footer />
     </div>
-    
+
   );
 }

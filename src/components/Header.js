@@ -1,4 +1,7 @@
 import React from 'react';
+import phoneIcon from '../assets/img/iconmonstr-phone-9.svg';
+import emailIcon from '../assets/img/iconmonstr-email-11.svg';
+import githubIcon from '../assets/img/iconmonstr-github-1.svg';
 
 function Header({ currentPage, handlePageChange }) {
     return (
@@ -17,12 +20,12 @@ function Header({ currentPage, handlePageChange }) {
 
                     <div className="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
                         <div className="offcanvas-header px-4 pb-0">
-                            <h5 className="offcanvas-title text-white" id="bdNavbarOffcanvasLabel">Menu</h5>
+                            <h5 className="offcanvas-title" id="bdNavbarOffcanvasLabel">Menu</h5>
                             <button type="button" className="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
                         </div>
 
                         <div className="offcanvas-body p-4 pt-0 p-lg-0">
-                            <ul className="navbar-nav flex-row flex-wrap ms-md-auto">
+                            <ul className="navbar-nav flex ms-md-auto">
                                 <li className="sidebar-brand"><a href="#page-top"></a></li>
                                 <li className="nav-item py-2 px-3">
                                     <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
@@ -42,10 +45,10 @@ function Header({ currentPage, handlePageChange }) {
                                 <hr>
                                 </hr>
                                 <ul className="nav-icons d-lg-none">
-                                    <li><a href="tel:9079525304"><img src="/assets/img/icon_phone.png" alt="Phone Icon" /></a></li>
-                                    <li><a href="mailto:jnmayhook@gmail.com"><img src="/assets/img/icon_email.png" alt="Email Icon" /></a>
+                                    <li><a href="tel:9079525304"><img src={phoneIcon} alt="Phone Icon" /></a></li>
+                                    <li><a href="mailto:jnmayhook@gmail.com"><img src={emailIcon} alt="Email Icon" /></a>
                                     </li>
-                                    <li><a href="https://github.com/jnmayhook"><img src="/assets/img/icon_git_hub.png"
+                                    <li><a href="https://github.com/jnmayhook"><img src={githubIcon}
                                         alt="Github Icon" /></a></li>
                                 </ul>
                             </ul>
