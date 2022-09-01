@@ -72,7 +72,8 @@ function Portfolio() {
                             <li>Click on an organization to find out more info on the shelter and its available pets</li>
                             <li>If you wish to search another city, click the Clear History button and start again!</li>
                         </ul>
-                        <a href="https://echandlerdavis.github.io/Project-1-Group-7/">Click here for the deployed app at Github.</a>
+                        <a href="https://echandlerdavis.github.io/Project-1-Group-7/">Click here for the deployed app at Github.</a><br/>
+                        <a href="https://github.com/echandlerdavis/Project-1-Group-7">Click here to view the repo at Github.</a>
 
 
 
@@ -110,8 +111,8 @@ function Portfolio() {
                             code when called by Sequelize and MySQL2. Users of the app will also have their passwords
                             encrypted when they are stored within the database using the bcrypt module.
                         </p>
-                        <a href="https://collective-cup.herokuapp.com/">Click here for the deployed app on Heroku.</a>
-
+                        <a href="https://collective-cup.herokuapp.com/">Click here for the deployed app on Heroku.</a><br/>
+                        <a href="https://github.com/jnmayhook/Project-2">Click here to view the repo at Github.</a>
 
                     </div>
                     <div className="col-md-5 col-sm-12 order-md-1">
