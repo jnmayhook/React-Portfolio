@@ -42,6 +42,11 @@ function Header({ currentPage, handlePageChange }) {
                                         Contact
                                     </a>
                                 </li>
+                                <li className="nav-item py-2 px-3">
+                                    <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+                                        Resume
+                                    </a>
+                                </li>
                                 <hr>
                                 </hr>
                                 <ul className="nav-icons d-lg-none">

@@ -176,9 +176,28 @@ ul.nav-icons img {
   --bs-btn-hover-border-color: #cc8238a8 !important;
 }
 
+/* ------------- resume page -------------- */
+.resume h2 {
+  padding-bottom: 5px;
+}
+.resume ul {
+  padding: 0px;
+}
+.resume ul li {
+  list-style: none;
+  font-family: var(--opensans);
+  padding: 2px;
+  font-size: 1.1em;
+}
 
 
 /* media queries */
+/* Medium Devices, Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .resume.container {
+    width: 100% !important;
+  }
+  }    
 
 /* Tablets - fonts  */
 @media screen and (max-width: 992px) {
@@ -189,6 +208,7 @@ ul.nav-icons img {
     .ballpark {
       display:none;
     }
+
   }
 
 
