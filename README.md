@@ -19,7 +19,6 @@ Open the terminal and type `npm install` or `npm i` to install the dependencies.
 ![An image of the front page of the application](./src/assets/screenshot-react-portfolio.png)
 
 
-
 ## Questions? 
 Please contact me: 
 
